@@ -1,0 +1,126 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background-image: url(100.jpg);
+	background-position: center;
+	background-size: cover;	 
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.boxA:hover{
+	color: darkred;
+}
+.boxA{
+	margin-left: 120px;
+	padding-top: 5px;
+	display: flex;
+}
+.boxA .box1{
+	width: 150px;
+	height: 50px;
+	margin-left: 750px;
+	margin-top: 20px;
+}
+.box1 ul{
+	display: flex;
+	justify-content: space-between;
+}
+.box1 ul li{
+	color: black;
+	padding-top: 10px;
+	font-size:20px;
+}
+.drop{
+	width: 50px;
+	display: none;
+}
+.drop ul{
+	display: block;
+	background-color: whitesmoke;
+	width: 100px;
+}
+ul li:hover .drop{
+	display: block; 
+}
+.boxA .box2{
+	width: 80px;
+	height: 30px;
+	margin-top: 33px;
+	background-color: red;
+	text-align: center;
+	border-radius: 5px;
+}
+.box2 h4{
+	color: white;
+	margin-top: 6px;
+	font-family: sans-serif;
+}
+.boxB{
+	margin-left: 450px;
+	margin-top: 100px;
+	display: block;
+}
+.boxB h1{
+	color: white;
+	font-size: 60px;
+	font-family:"Roboto Condensed";
+	letter-spacing:3px;
+}
+.boxB h3{
+	color: white;
+	font-family:"Roboto Condensed";
+	font-size: 20px;
+}
+.boxB h4{
+	color: white;
+	font-family:"Roboto Condensed";
+}
+.boxB .box2{
+	margin-left: 50px;
+}
+.boxB .box3{
+	margin-left: 175px;
+}
+.boxB .box4{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.boxB .box5{
+	margin-top: 30px;
+}
+.boxB .box6{
+	margin-top: 20px;
+	margin-left: -40px;
+}
+.boxB .box6 input{
+	height: 55px;
+	width: 380px;
+	background: transparent;
+	border-radius: 5px;
+	border-color: darkgrey;
+	border-width: 1px;
+	font-size: 18px;
+}
+.boxB .box6{
+	display: flex;
+}
+.box6 .boxa{
+	width: 200px;
+	height: 55px;
+	margin-left: 10px;
+	background-color: red;
+	border-radius: 5px;
+}
+.boxa h2{
+	color: white;
+	margin-top: 12px;
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+
